@@ -1,0 +1,23 @@
+{
+  "travisNg2App": {
+    "mapsIdParentEntityWithoutDTO": {
+      "home": {
+        "title": "Maps Id Parent Entity Without DTOS",
+        "createLabel": "Create a new Maps Id Parent Entity Without DTO",
+        "createOrEditLabel": "Create or edit a Maps Id Parent Entity Without DTO",
+        "notFound": "No Maps Id Parent Entity Without DTOS found"
+      },
+      "created": "A new Maps Id Parent Entity Without DTO is created with identifier {{ param }}",
+      "updated": "A Maps Id Parent Entity Without DTO is updated with identifier {{ param }}",
+      "deleted": "A Maps Id Parent Entity Without DTO is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Maps Id Parent Entity Without DTO {{ id }}?"
+      },
+      "detail": {
+        "title": "Maps Id Parent Entity Without DTO"
+      },
+      "name": "Name",
+      "mapsIdChildEntityWithoutDTO": "Maps Id Child Entity Without DTO"
+    }
+  }
+}

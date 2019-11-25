@@ -1,0 +1,22 @@
+package io.github.jhipster.travis.domain;
+
+import org.junit.jupiter.api.Test;
+import static org.assertj.core.api.Assertions.assertThat;
+import io.github.jhipster.travis.web.rest.TestUtil;
+
+public class EntityWithServiceClassPaginationAndDTOTest {
+
+    @Test
+    public void equalsVerifier() throws Exception {
+        TestUtil.equalsVerifier(EntityWithServiceClassPaginationAndDTO.class);
+        EntityWithServiceClassPaginationAndDTO entityWithServiceClassPaginationAndDTO1 = new EntityWithServiceClassPaginationAndDTO();
+        entityWithServiceClassPaginationAndDTO1.setId(1L);
+        EntityWithServiceClassPaginationAndDTO entityWithServiceClassPaginationAndDTO2 = new EntityWithServiceClassPaginationAndDTO();
+        entityWithServiceClassPaginationAndDTO2.setId(entityWithServiceClassPaginationAndDTO1.getId());
+        assertThat(entityWithServiceClassPaginationAndDTO1).isEqualTo(entityWithServiceClassPaginationAndDTO2);
+        entityWithServiceClassPaginationAndDTO2.setId(2L);
+        assertThat(entityWithServiceClassPaginationAndDTO1).isNotEqualTo(entityWithServiceClassPaginationAndDTO2);
+        entityWithServiceClassPaginationAndDTO1.setId(null);
+        assertThat(entityWithServiceClassPaginationAndDTO1).isNotEqualTo(entityWithServiceClassPaginationAndDTO2);
+    }
+}

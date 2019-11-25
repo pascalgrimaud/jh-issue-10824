@@ -1,0 +1,11 @@
+id;name;guid;bank_number;agency_number;last_operation_duration;mean_operation_duration;mean_queue_duration;balance;opening_day;last_operation_date;active;account_type;attachment;attachment_content_type;description
+1;mobile Fish;c9927210-7d59-42ba-80fb-df302f294980;43194;2306;29122;52477;61185;39986;2019-11-25;2019-11-25T20:14:16;false;CHECKING;../fake-data/blob/hipster.png;image/png;../fake-data/blob/hipster.txt
+2;Cambridgeshire Mississippi;0d9a2710-fff9-4c64-813a-37a197d02e64;18223;66252;75536;31171;42515;52006;2019-11-25;2019-11-25T08:14:13;true;LOAN;../fake-data/blob/hipster.png;image/png;../fake-data/blob/hipster.txt
+3;Views e-enable Communications;be519380-f5d6-4b48-995f-498424c210f6;77224;39488;19871;29348;552;1407;2019-11-25;2019-11-25T16:35:08;true;CHECKING;../fake-data/blob/hipster.png;image/png;../fake-data/blob/hipster.txt
+4;IB Investment Account archive;154a5ab9-a4e8-4761-bbdc-b83c4708b610;43933;10789;20171;3142;89576;63641;2019-11-25;2019-11-25T13:48:48;true;SAVINGS;../fake-data/blob/hipster.png;image/png;../fake-data/blob/hipster.txt
+5;Saint Lucia white;f194b2ee-9c4a-41d7-8326-ee85c1e55e14;22793;64769;42710;52;81801;35256;2019-11-25;2019-11-25T14:02:35;false;SAVINGS;../fake-data/blob/hipster.png;image/png;../fake-data/blob/hipster.txt
+6;magenta Concrete;53f25388-b651-4f4f-b4b7-b424f049f860;3305;27864;34507;90826;63435;23956;2019-11-25;2019-11-25T17:52:49;true;SAVINGS;../fake-data/blob/hipster.png;image/png;../fake-data/blob/hipster.txt
+7;Handmade 24/7 Re-contextualized;c57afa68-d1cd-4258-ab0d-95a30b8c35a1;17436;94052;69093;39757;38673;51775;2019-11-24;2019-11-25T01:15:11;false;LOAN;../fake-data/blob/hipster.png;image/png;../fake-data/blob/hipster.txt
+8;Enhanced deposit parsing;88843f1f-e8ee-4a35-85bb-dede6cead1e2;78534;89855;66898;60642;58068;919;2019-11-25;2019-11-25T18:55:21;true;CHECKING;../fake-data/blob/hipster.png;image/png;../fake-data/blob/hipster.txt
+9;Buckinghamshire Ports;f32b0375-2b5a-4bdb-a498-185a4439ff67;89204;90609;63113;43439;79481;35007;2019-11-25;2019-11-25T05:52:32;true;CHECKING;../fake-data/blob/hipster.png;image/png;../fake-data/blob/hipster.txt
+10;Shoes deposit;2ff7f4ee-5b0f-4e56-8f9f-fd14463d4572;37268;55680;39469;93615;84421;69602;2019-11-24;2019-11-25T07:40:35;false;LOAN;../fake-data/blob/hipster.png;image/png;../fake-data/blob/hipster.txt

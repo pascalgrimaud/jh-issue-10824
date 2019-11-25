@@ -1,0 +1,22 @@
+{
+  "travisNg2App": {
+    "testManyRelPaginDTO": {
+      "home": {
+        "title": "Test Many Rel Pagin DTOS",
+        "createLabel": "Create a new Test Many Rel Pagin DTO",
+        "createOrEditLabel": "Create or edit a Test Many Rel Pagin DTO",
+        "notFound": "No Test Many Rel Pagin DTOS found"
+      },
+      "created": "A new Test Many Rel Pagin DTO is created with identifier {{ param }}",
+      "updated": "A Test Many Rel Pagin DTO is updated with identifier {{ param }}",
+      "deleted": "A Test Many Rel Pagin DTO is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Test Many Rel Pagin DTO {{ id }}?"
+      },
+      "detail": {
+        "title": "Test Many Rel Pagin DTO"
+      },
+      "testMapstruct": "Test Mapstruct"
+    }
+  }
+}

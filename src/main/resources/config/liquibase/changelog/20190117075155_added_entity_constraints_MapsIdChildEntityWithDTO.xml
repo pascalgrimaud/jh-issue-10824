@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity MapsIdChildEntityWithDTO.
+    -->
+    <changeSet id="20190117075155-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="id"
+                                 baseTableName="maps_id_child_entity_withdto"
+                                 constraintName="maps_id_child_entity_withdto_maps_id_parent_entity_withdto_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="maps_id_parent_entity_withdto"/>
+
+    </changeSet>
+</databaseChangeLog>

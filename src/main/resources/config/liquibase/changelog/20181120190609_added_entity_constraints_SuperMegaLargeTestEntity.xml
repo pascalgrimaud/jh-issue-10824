@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity SuperMegaLargeTestEntity.
+    -->
+    <changeSet id="20181120190609-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="super_mega_large_user_one_to_many_id"
+                                 baseTableName="super_mega_large_test_entity"
+                                 constraintName="super_mega_large_test_entity_super_mega_large_user_one_to_man_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="custom_user"/>
+
+        <addForeignKeyConstraint baseColumnNames="super_mega_large_test_entity_id"
+                                 baseTableName="super_mega_large_test_entity_super_mega_large_user_many_to_many"
+                                 constraintName="super_mega_large_test_entity_su_super_mega_large_test_entity_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="super_mega_large_test_entity"/>
+
+        <addForeignKeyConstraint baseColumnNames="super_mega_large_user_many_to_many_id"
+                                 baseTableName="super_mega_large_test_entity_super_mega_large_user_many_to_many"
+                                 constraintName="super_mega_large_test_entity_su_super_mega_large_user_many_to_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="custom_user"/>
+        
+        <addForeignKeyConstraint baseColumnNames="super_mega_large_user_one_to_one_id"
+                                 baseTableName="super_mega_large_test_entity"
+                                 constraintName="super_mega_large_test_entity_super_mega_large_user_one_to_one_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="custom_user"/>
+
+    </changeSet>
+</databaseChangeLog>
